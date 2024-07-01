@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-export const YouTube = (props: SVGProps<SVGSVGElement>) => (
+export const YouTube: React.FC = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		viewBox="0 0 256 180"
 		width="1em"

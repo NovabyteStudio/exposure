@@ -1,9 +1,10 @@
+import React from "react";
 import Image from "next/image";
 
-export default function Alekai() {
+export const Alekai: React.FC = () => {
 	return (
 		<>
-			<Image src="/content/slider/Alekai.png" width={500} height={500} alt="Logo" />
+			<Image src="/content/slider/alekai.png" width={500} height={500} alt="Logo" />
 		</>
 	);
 }

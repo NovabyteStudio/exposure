@@ -1,4 +1,6 @@
-export default function ViteI() {
+import React from "react";
+
+export const Vite: React.FC = () => {
 	return (
 		<>
 			<svg

@@ -25,7 +25,7 @@ export const HowWeWork: React.FC = () => {
 						</div>
 						<div className="flex flex-col w-full pt-3 items-center text-left">
 							<h3 className="text-white text-left w-full">Edicion</h3>
-							<p className="text-muted-foreground text-left w-full">
+							<p className="text-[#f2f2f2]/40 text-left w-full">
 								Crea piezas de contenido que se ajusten con tus valores, propositos y personalidad, para crear una
 								verdadera marca personal.
 							</p>
@@ -37,7 +37,7 @@ export const HowWeWork: React.FC = () => {
 						</div>
 						<div className="flex flex-col w-full pt-3 items-center text-left">
 							<h3 className="text-white text-left w-full">Sistema</h3>
-							<p className="text-muted-foreground text-left w-full">
+							<p className="text-[#f2f2f2]/40 text-left w-full">
 								Un csm que garantiza que todas las piezas se entreguen a tiempo y forma para no perder tiempo en
 								revisiones y comunicar ambas partes de manera eficaz.
 							</p>
@@ -49,7 +49,7 @@ export const HowWeWork: React.FC = () => {
 						</div>
 						<div className="flex flex-col w-full pt-3 items-center text-left">
 							<h3 className="text-white text-left w-full">Estratégias y Guionaje</h3>
-							<p className="text-muted-foreground text-left w-full">
+							<p className="text-[#f2f2f2]/40 text-left w-full">
 								Creación de contenido de manera analizada y planificada con el fin de aumentar tus ingresos.
 							</p>
 						</div>
@@ -60,7 +60,7 @@ export const HowWeWork: React.FC = () => {
 						</div>
 						<div className="flex flex-col w-full pt-3 items-center text-left">
 							<h3 className="text-white text-left w-full">Embudos</h3>
-							<p className="text-muted-foreground text-left w-full">Próximamente...</p>
+							<p className="text-[#f2f2f2]/40 text-left w-full">Próximamente...</p>
 						</div>
 					</div>
 				</div>

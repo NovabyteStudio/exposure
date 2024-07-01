@@ -1,4 +1,6 @@
-export default function ExprezzI() {
+import React from "react";
+
+export const ExpressJS: React.FC = () => {
 	return (
 		<>
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="64" height="64">

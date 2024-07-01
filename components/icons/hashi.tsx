@@ -1,8 +1,10 @@
+import React from "react";
 import Image from "next/image";
-export default function Hashi() {
+
+export const Hashi: React.FC = () => {
 	return (
 		<>
-			<Image src="/content/slider/otroNmobre.png" width={600} height={600} alt="Logo" />
+			<Image src="/content/slider/hashi.png" width={600} height={600} alt="Hashi" />
 		</>
 	);
 }

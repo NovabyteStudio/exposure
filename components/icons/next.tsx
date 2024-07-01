@@ -1,9 +1,10 @@
+import React from "react";
 import Image from "next/image";
 
-export default function NextI() {
+export const EMP: React.FC = () => {
 	return (
 		<>
-			<Image src="/content/slider/EMP.png" width={500} height={500} alt="Logo" />
+			<Image src="/content/slider/emp.png" width={500} height={500} alt="Logo" />
 		</>
 	);
 }

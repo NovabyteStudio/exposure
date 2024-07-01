@@ -1,4 +1,6 @@
-export default function SassI() {
+import React from "react";
+
+export const SASS: React.FC = () => {
 	return (
 		<>
 			<svg viewBox="0 0 512 384" xmlns="http://www.w3.org/2000/svg" width="65" height="65">

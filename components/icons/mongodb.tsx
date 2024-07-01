@@ -1,4 +1,6 @@
-export default function MongoDBI() {
+import React from "react";
+
+export const MongoDB: React.FC = () => {
 	return (
 		<>
 			<svg

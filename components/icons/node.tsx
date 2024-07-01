@@ -1,4 +1,6 @@
-export default function NodeJSI() {
+import React from "react";
+
+export const NodeJS: React.FC = () => {
 	return (
 		<>
 			<svg
