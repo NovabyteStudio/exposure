@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-// @import url(https://db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
-
 @font-face {
 	font-family: "Sequel Sans";
 	src: url("/fonts/Sequel\ Sans\ Light\ Body.ttf") format("truetype");
@@ -245,38 +243,29 @@
 		scroll-behavior: smooth !important;
 		font-family: "Sequel Sans", sans-serif !important;
 	}
-}
-
-// .textLogo {
-// 	font-family: "Druk Wide Bold", sans-serif;
-// }
-
-.contact-button {
-	@apply px-8;
-	@apply py-4;
-	font-size: 12px;
-	text-transform: uppercase;
-	letter-spacing: 2.5px;
-	font-weight: 500;
-	color: #000;
-	background-color: #fff;
-	border: none;
-	border-radius: 45px;
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-	transition: all 0.3s ease 0s;
-	cursor: pointer;
-	outline: none;
-	&:hover {
-		background-color: #23c483;
-		box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-		color: #fff;
-		transform: translateY(-7px);
-	}
-	&:active {
-		transform: translateY(-1px);
-	}
-
-	#devs-swiper {
-		background-color: transparent !important;
+	.contact-button {
+		@apply px-8;
+		@apply py-4;
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: 2.5px;
+		font-weight: 500;
+		color: #000;
+		background-color: #fff;
+		border: none;
+		border-radius: 45px;
+		box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+		transition: all 0.3s ease 0s;
+		cursor: pointer;
+		outline: none;
+		&:hover {
+			background-color: #23c483;
+			box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+			color: #fff;
+			transform: translateY(-7px);
+		}
+		&:active {
+			transform: translateY(-1px);
+		}
 	}
 }

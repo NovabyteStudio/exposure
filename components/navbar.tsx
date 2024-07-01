@@ -8,16 +8,15 @@ import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
 
 export const Navbar: React.FC = () => {
 	return (
-		<header className="flex items-center justify-around px-4 md:px-6">
-			<div className="flex items-center justify-center">
+		<header className="flex items-center justify-around px-4 md:px-6 max-md:px-0 max-md:w-full">
+			<div className="flex items-center justify-center max-md:w-full max-md:justify-start cursor-default">
 				<Image alt="name" src={"/logo.png"} width={70} height={70} />
 				<h3 className="font-bold textLogo">EXPOSURE</h3>
 			</div>
 			<Sheet>
 				<SheetTrigger asChild>
-					<Button variant="ghost" size="icon" className="rounded-full ">
+					<Button variant="ghost" size="icon" className="rounded-full mr-2 hover:bg-transparent hover:text-[#23c483]">
 						<MenuIcon className="h-6 w-6" />
-						<span className="sr-only">Toggle navigation menu</span>
 					</Button>
 				</SheetTrigger>
 				<SheetContent side="right" className="bg-[#1c1c1c]">

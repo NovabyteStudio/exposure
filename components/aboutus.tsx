@@ -1,5 +1,5 @@
 import React from "react";
-import { BarChart, CalendarClock, Handshake } from "lucide-react";
+import { MessageSquareQuoteIcon } from "lucide-react";
 // Components \\
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
@@ -7,12 +7,12 @@ export const AboutUs: React.FC = () => {
 	return (
 		<Card className="w-full max-w-4xl mt-20 flex flex-col mx-auto border-none bg-transparent">
 			<CardHeader className="flex mb-10">
-				<CardTitle className="text-2xl font-bold w-[400px] text-[#f2f2f2]">
-					Lo que clientes dicen de nosotros...
+				<CardTitle className="inline-flex items-center gap-x-1.5 text-2xl font-bold text-[#f2f2f2] max-md:text-center">
+					<MessageSquareQuoteIcon className="mt-1" /> Lo que clientes dicen de nosotros...
 				</CardTitle>
 			</CardHeader>
 			<CardContent className="flex sm:flex-row mx-auto flex-col flex-wrap gap-6 sm:gap-5 md:gap-[14px]">
-				<div className="flex flex-col gap-y-6 w-[310px] justify-center mx-auto border border-[#282828] bg-[#1c1c1c] rounded-md">
+				<div className="flex flex-col gap-y-6 w-[310px] justify-center mx-auto border border-[#282828] bg-[#1c1c1c] rounded-md drop-shadow-md">
 					<div className="px-6 py-4">
 						<div className="text-sm text-[#f2f2f2]">
 							“Los chicos de exposure llevaron mi contenido y estratégias al siguiente nivel, muy contento con los
@@ -37,7 +37,7 @@ export const AboutUs: React.FC = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex flex-col gap-y-6 w-[310px] justify-center mx-auto border border-[#282828] bg-[#1c1c1c] rounded-md">
+				<div className="flex flex-col gap-y-6 w-[310px] justify-center mx-auto border border-[#282828] bg-[#1c1c1c] rounded-md drop-shadow-md">
 					<div className="px-6 py-4">
 						<div className="text-sm text-[#f2f2f2]">
 							“Estoy con ellos desde que arranqué y más contento imposible, $35k usd por mes con mi marca personal.”
@@ -61,7 +61,7 @@ export const AboutUs: React.FC = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex flex-col gap-y-6 w-[310px] justify-center mx-auto border border-[#282828] bg-[#1c1c1c] rounded-md">
+				<div className="flex flex-col gap-y-6 w-[310px] justify-center mx-auto border border-[#282828] bg-[#1c1c1c] rounded-md drop-shadow-md">
 					<div className="px-6 py-4">
 						<div className="text-sm text-[#f2f2f2]">
 							“Quiero agradecer enormemente a exposure, me dieron una increíble mano con todo mi contenido, mis
@@ -86,7 +86,7 @@ export const AboutUs: React.FC = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex flex-col gap-y-6 w-[310px] justify-center mx-auto border border-[#282828] bg-[#1c1c1c] rounded-md">
+				<div className="flex flex-col gap-y-6 w-[310px] justify-center mx-auto border border-[#282828] bg-[#1c1c1c] rounded-md drop-shadow-md">
 					<div className="px-6 py-4">
 						<div className="text-sm text-[#f2f2f2]">
 							“Increíble, muy contento con los resultados obtenidos. Calidad inigualable.”
