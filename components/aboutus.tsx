@@ -23,7 +23,7 @@ export const AboutUs: React.FC = () => {
 						<div className="flex space-x-4">
 							<div>
 								<img
-									alt="Profile"
+									alt="Ramiro Cubria"
 									className="rounded-md"
 									height="48"
 									src="https://generated.vusercontent.net/placeholder.svg"
@@ -47,7 +47,7 @@ export const AboutUs: React.FC = () => {
 						<div className="flex space-x-4">
 							<div>
 								<img
-									alt="Profile"
+									alt="Fran Castro"
 									className="rounded-md"
 									height="48"
 									src="https://generated.vusercontent.net/placeholder.svg"
@@ -72,7 +72,7 @@ export const AboutUs: React.FC = () => {
 						<div className="flex space-x-4">
 							<div>
 								<img
-									alt="Profile"
+									alt="Matias Noguera"
 									className="rounded-md"
 									height="48"
 									src="https://generated.vusercontent.net/placeholder.svg"
@@ -96,7 +96,7 @@ export const AboutUs: React.FC = () => {
 						<div className="flex space-x-4">
 							<div>
 								<img
-									alt="Profile"
+									alt="Gonzalo Waisman"
 									className="rounded-md"
 									height="48"
 									src="https://generated.vusercontent.net/placeholder.svg"
