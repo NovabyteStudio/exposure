@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://cdn-uicons.flaticon.com/2.4.2/uicons-thin-rounded/css/uicons-thin-rounded.css");
+
 @font-face {
 	font-family: "Sequel Sans";
 	src: url("/fonts/Sequel\ Sans\ Light\ Body.ttf") format("truetype");
@@ -277,5 +279,46 @@
 			rgb(0, 0, 0) 85%,
 			rgba(0, 0, 0, 0) 93%
 		) !important;
+	}
+
+	.fi {
+		@apply w-[40px];
+		@apply h-[40px];
+		@apply text-[40px];
+		@apply text-[#f2f2f2]/100;
+
+		&.fi-tr-layer-plus,
+		&.fi-tr-users-medical {
+			@apply w-[28px];
+			@apply h-[28px];
+			@apply text-[28px];
+			@apply text-[#f2f2f2]/100;
+			@apply mt-1;
+			@apply mr-1;
+		}
+		&.fi-tr-thumbs-up-trust {
+			@apply w-[28px];
+			@apply h-[28px];
+			@apply text-[28px];
+			@apply text-[#f2f2f2]/100;
+			@apply mt-0.5;
+			@apply mr-1;
+		}
+		&.fi-tr-level-down-alt {
+			@apply w-[28px];
+			@apply h-[28px];
+			@apply text-[28px];
+			@apply text-[#f2f2f2]/100;
+			@apply mt-1.5;
+			@apply mr-1;
+		}
+		&.fi-tr-usd-square {
+			@apply w-[28px];
+			@apply h-[28px];
+			@apply text-[28px];
+			@apply text-[#f2f2f2]/100;
+			@apply mt-0.5;
+			@apply mr-1;
+		}
 	}
 }

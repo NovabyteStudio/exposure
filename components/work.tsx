@@ -1,5 +1,4 @@
 import React from "react";
-import { BrainIcon, CircleHelpIcon, FileVideo2Icon, GitCompareIcon, Layers3Icon } from "lucide-react";
 // Components \\
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
@@ -8,7 +7,7 @@ export const HowWeWork: React.FC = () => {
 		<Card className="w-full max-w-4xl mt-20 flex flex-col mx-auto border-none bg-transparent">
 			<CardHeader className="flex">
 				<CardTitle className="inline-flex items-center gap-x-1.5 text-2xl font-bold text-[#f2f2f2] max-md:text-center max-md:justify-center">
-					<Layers3Icon className="mt-0.5 max-sm:hidden" /> ¿Cómo trabajamos?
+					<i className="fi fi-tr-layer-plus"></i> ¿Cómo trabajamos?
 				</CardTitle>
 			</CardHeader>
 			<CardContent className="flex sm:flex-row mx-auto flex-col flex-wrap gap-6 sm:gap-5 md:gap-[10px] max-md:text-center">
@@ -20,8 +19,8 @@ export const HowWeWork: React.FC = () => {
 				</div>
 				<div className="flex flex-col gap-y-6 justify-center mx-auto">
 					<div className="inline-flex gap-x-3.5 bg-[#1c1c1c] items-center cursor-pointer rounded-lg border border-[#1c1c1c] drop-shadow-md p-6 transition-all flex-1">
-						<div className="pt-3 rounded-md inline-flex items-center justify-center aspect-square">
-							<FileVideo2Icon size={40} className="text-white" />
+						<div className="rounded-md inline-flex items-center justify-center aspect-square">
+							<i className="fi fi-tr-play-microphone"></i>
 						</div>
 						<div className="flex flex-col w-full pt-3 items-center text-left">
 							<h3 className="text-white text-left w-full">Edicion</h3>
@@ -32,8 +31,8 @@ export const HowWeWork: React.FC = () => {
 						</div>
 					</div>
 					<div className="inline-flex gap-x-3.5 bg-[#1c1c1c] items-center cursor-pointer rounded-lg border border-[#1c1c1c] drop-shadow-md p-6 transition-all flex-1">
-						<div className="pt-3 rounded-md inline-flex items-center justify-center aspect-square">
-							<GitCompareIcon size={40} className="text-white" />
+						<div className="rounded-md inline-flex items-center justify-center aspect-square">
+							<i className="fi fi-tr-code-compare"></i>
 						</div>
 						<div className="flex flex-col w-full pt-3 items-center text-left">
 							<h3 className="text-white text-left w-full">Sistema</h3>
@@ -44,8 +43,8 @@ export const HowWeWork: React.FC = () => {
 						</div>
 					</div>
 					<div className="inline-flex gap-x-3.5 bg-[#1c1c1c] items-center cursor-pointer rounded-lg border border-[#1c1c1c] drop-shadow-md p-6 transition-all flex-1">
-						<div className="pt-3 rounded-md inline-flex items-center justify-center aspect-square">
-							<BrainIcon size={40} className="text-white" />
+						<div className="rounded-md inline-flex items-center justify-center aspect-square">
+							<i className="fi fi-tr-mind-share"></i>
 						</div>
 						<div className="flex flex-col w-full pt-3 items-center text-left">
 							<h3 className="text-white text-left w-full">Estratégias y Guionaje</h3>
@@ -55,8 +54,8 @@ export const HowWeWork: React.FC = () => {
 						</div>
 					</div>
 					<div className="inline-flex gap-x-3.5 bg-[#1c1c1c]/40 items-center cursor-pointer rounded-lg border border-[#1c1c1c] drop-shadow-md p-6 transition-all flex-1">
-						<div className="pt-3 rounded-md inline-flex items-center justify-center aspect-square">
-							<CircleHelpIcon size={40} className="text-white" />
+						<div className="rounded-md inline-flex items-center justify-center aspect-square">
+							<i className="fi fi-tr-map-marker-question"></i>
 						</div>
 						<div className="flex flex-col w-full pt-3 items-center text-left">
 							<h3 className="text-white text-left w-full">Embudos</h3>

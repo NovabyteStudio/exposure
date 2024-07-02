@@ -1,5 +1,4 @@
 import React from "react";
-import { MessageSquareQuoteIcon } from "lucide-react";
 // Components \\
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
@@ -8,7 +7,7 @@ export const AboutUs: React.FC = () => {
 		<Card className="w-full max-w-4xl mt-20 flex flex-col mx-auto border-none bg-transparent">
 			<CardHeader className="flex mb-10">
 				<CardTitle className="inline-flex items-center gap-x-1.5 text-2xl font-bold text-[#f2f2f2] max-md:text-center">
-					<MessageSquareQuoteIcon className="mt-1 max-sm:hidden" /> Lo que clientes dicen de nosotros...
+					<i className="fi fi-tr-thumbs-up-trust"></i> Lo que clientes dicen de nosotros...
 				</CardTitle>
 			</CardHeader>
 			<CardContent className="flex sm:flex-row mx-auto flex-col flex-wrap gap-6 sm:gap-5 md:gap-[14px]">
@@ -24,8 +23,8 @@ export const AboutUs: React.FC = () => {
 							<div>
 								<img
 									alt="Ramiro Cubria"
-									className="mt-2 rounded-full h-[48px] w-[60px]"
-									height="48"
+									className="mt-2 rounded-full"
+									height="60"
 									src="/content/opinions/ramirocubria.jpg"
 									width="60"
 								/>
@@ -48,10 +47,10 @@ export const AboutUs: React.FC = () => {
 							<div>
 								<img
 									alt="Fran Castro"
-									className="mt-2 rounded-full h-[48px] w-[54px]"
-									height="48"
+									className="mt-2 rounded-full"
+									height="60"
 									src="/content/opinions/francastro.jpg"
-									width="54"
+									width="60"
 								/>
 							</div>
 							<div>
@@ -73,7 +72,7 @@ export const AboutUs: React.FC = () => {
 							<div>
 								<img
 									alt="Matias Noguera"
-									className="-mt-1 rounded-full h-[48px] w-[48px]"
+									className="-mt-1 rounded-full"
 									height="48"
 									src="/content/opinions/matiasnoguera.jpg"
 									width="48"
@@ -97,7 +96,7 @@ export const AboutUs: React.FC = () => {
 							<div>
 								<img
 									alt="Gonzalo Waisman"
-									className="-mt-0.5 rounded-full h-[48px] w-[48px]"
+									className="-mt-0.5 rounded-full"
 									height="48"
 									src="/content/opinions/gonzalowaisman.jpg"
 									width="48"

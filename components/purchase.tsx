@@ -13,7 +13,7 @@ export const Purchase: React.FC = () => {
 			<div className="w-full max-w-4xl mt-20 flex flex-col mx-auto border-none bg-transparent">
 				<div className="container px-4 md:px-6">
 					<h1 className="inline-flex items-center gap-x-1.5 text-2xl font-bold text-[#f2f2f2] max-md:w-screen max-md:justify-center">
-						<CircleFadingPlusIcon className="mt-0.5 max-sm:hidden" /> Adquirir servicio <CornerRightDownIcon className="mt-2" />
+						<i className="fi fi-tr-usd-square"></i> Adquirir servicio <i className="fi fi-tr-level-down-alt"></i>
 					</h1>
 					<div className="grid grid-cols-1 gap-6 mt-8 md:grid-cols-3 md:gap-8">
 						<div className="flex flex-col justify-between gap-x-3.5 md:w-[275px] max-md:w-[275px] mx-auto bg-[#1c1c1c] items-center cursor-pointer rounded-lg border border-[#1c1c1c] drop-shadow-md p-6 transition-all flex-1">
