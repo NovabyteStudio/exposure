@@ -268,4 +268,14 @@
 			transform: translateY(-1px);
 		}
 	}
+
+	#devs-swiper {
+		mask-image: linear-gradient(
+			to right,
+			rgba(0, 0, 0, 0) 7%,
+			rgb(0, 0, 0) 15%,
+			rgb(0, 0, 0) 85%,
+			rgba(0, 0, 0, 0) 93%
+		) !important;
+	}
 }
