@@ -44,8 +44,8 @@ export const Purchase: React.FC = () => {
 							<div>
 								<h3 className="inline-flex items-center gap-x-1.5 justify-center w-full text-2xl font-bold text-center"><ComponentIcon /> Combo</h3>
 								<div className="mt-4 text-center text-zinc-600 dark:text-zinc-400">
-									<span className="text-3xl font-bold line-through">$1000</span>
-									<div className="text-4xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">$715</div>
+									<span className="text-3xl font-bold line-through">$1000</span>/ m
+									<div className="text-4xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">$715</div>/ m
 									<div className="text-base font-medium bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">Precio Especial Miembro EMP</div>
 								</div>
 
