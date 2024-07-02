@@ -7,4 +7,4 @@ export const DFria: React.FC = () => {
 			<Image src="/content/slider/dfria.png" width={500} height={500} alt="Logo" />
 		</>
 	);
-}
+};

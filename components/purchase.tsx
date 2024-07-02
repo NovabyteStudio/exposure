@@ -26,8 +26,7 @@ export const Purchase: React.FC = () => {
 								</div>
 								<ul className="mt-4 space-y-2">
 									<li className="flex items-center">
-										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
-										1 video de YouTube por semana.
+										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />1 video de YouTube por semana.
 									</li>
 									<li className="flex items-center">
 										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
@@ -37,7 +36,9 @@ export const Purchase: React.FC = () => {
 							</div>
 							<div className="mt-6">
 								<Link href={"https://calendly.com/alexmcarrera/30min"} target="_blank">
-									<Button className="w-full bg-[#f2f2f2] text-[#1c1c1c] hover:bg-[#23c483] hover:text-[#f2f2f2] active:scale-95 transition-all ease-in-out">Agendar reunión</Button>
+									<Button className="w-full bg-[#f2f2f2] text-[#1c1c1c] hover:bg-[#23c483] hover:text-[#f2f2f2] active:scale-95 transition-all ease-in-out">
+										Agendar reunión
+									</Button>
 								</Link>
 							</div>
 						</div>
@@ -46,20 +47,24 @@ export const Purchase: React.FC = () => {
 								Recomendado
 							</div>
 							<div>
-								<h3 className="inline-flex items-center gap-x-1.5 justify-center w-full text-2xl font-bold text-center"><ComponentIcon /> Combo</h3>
+								<h3 className="inline-flex items-center gap-x-1.5 justify-center w-full text-2xl font-bold text-center">
+									<ComponentIcon /> Combo
+								</h3>
 								<div className="mt-4 text-center text-zinc-600 dark:text-zinc-400">
 									<span className="text-3xl font-bold line-through">$1000</span>/ m
-									<div className="text-4xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">$715<span className="text-base">/{" "}m</span></div>
-									<div className="text-base font-medium bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">Precio Especial Miembro EMP</div>
+									<div className="text-4xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">
+										$715<span className="text-base">/ m</span>
+									</div>
+									<div className="text-base font-medium bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">
+										Precio Especial Miembro EMP
+									</div>
 								</div>
 								<ul className="mt-4 space-y-2">
 									<li className="flex items-center">
-										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
-										1 video de YouTube por semana.
+										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />1 video de YouTube por semana.
 									</li>
 									<li className="flex items-center">
-										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
-										3 reels por semana.
+										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />3 reels por semana.
 									</li>
 									<li className="flex items-center text-">
 										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
@@ -73,7 +78,9 @@ export const Purchase: React.FC = () => {
 							</div>
 							<div className="mt-6">
 								<Link href={"https://calendly.com/alexmcarrera/30min"} target="_blank">
-									<Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500 hover:from-[#23c483] hover:to-[#23c483] hover:text-[#f2f2f2] active:scale-95 transition-all ease-in-out">Agendar reunión</Button>
+									<Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500 hover:from-[#23c483] hover:to-[#23c483] hover:text-[#f2f2f2] active:scale-95 transition-all ease-in-out">
+										Agendar reunión
+									</Button>
 								</Link>
 							</div>
 						</div>
@@ -87,8 +94,7 @@ export const Purchase: React.FC = () => {
 								</div>
 								<ul className="mt-4 space-y-2">
 									<li className="flex items-center">
-										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
-										3 reels por semana.
+										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />3 reels por semana.
 									</li>
 									<li className="flex items-center">
 										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
@@ -98,7 +104,9 @@ export const Purchase: React.FC = () => {
 							</div>
 							<div className="mt-6">
 								<Link href={"https://calendly.com/alexmcarrera/30min"} target="_blank">
-									<Button className="w-full bg-[#f2f2f2] text-[#1c1c1c] hover:bg-[#23c483] hover:text-[#f2f2f2] active:scale-95 transition-all ease-in-out">Agendar reunión</Button>
+									<Button className="w-full bg-[#f2f2f2] text-[#1c1c1c] hover:bg-[#23c483] hover:text-[#f2f2f2] active:scale-95 transition-all ease-in-out">
+										Agendar reunión
+									</Button>
 								</Link>
 							</div>
 						</div>

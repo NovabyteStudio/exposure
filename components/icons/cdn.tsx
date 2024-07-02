@@ -7,4 +7,4 @@ export const CDN: React.FC = () => {
 			<Image src="/content/slider/cdn.png" width={500} height={500} alt="CDN" />
 		</>
 	);
-}
+};

@@ -7,4 +7,4 @@ export const Hashi: React.FC = () => {
 			<Image src="/content/slider/hashi.png" width={600} height={600} alt="Hashi" />
 		</>
 	);
-}
+};

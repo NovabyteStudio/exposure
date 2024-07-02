@@ -7,4 +7,4 @@ export const Decrypto: React.FC = () => {
 			<Image src="/content/slider/decrypto.png" width={500} height={500} alt="Decrypto" />
 		</>
 	);
-}
+};

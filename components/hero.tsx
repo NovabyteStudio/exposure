@@ -6,7 +6,6 @@ import "swiper/css";
 import TechIconsData, { IconData } from "@/lib/icons";
 
 export const GridBackground: React.FC = () => {
-
 	const scrollToElement = (id: string, duration: number) => {
 		const element = document.getElementById(id);
 		if (element) {
@@ -17,7 +16,10 @@ export const GridBackground: React.FC = () => {
 			const scroll = (currentTime: number) => {
 				const timeElapsed = currentTime - startTime;
 				const progress = Math.min(timeElapsed / duration, 1);
-				const ease = progress < 0.5 ? 4 * progress * progress * progress : (progress - 1) * (2 * progress - 2) * (2 * progress - 2) + 1;
+				const ease =
+					progress < 0.5
+						? 4 * progress * progress * progress
+						: (progress - 1) * (2 * progress - 2) * (2 * progress - 2) + 1;
 
 				window.scrollTo(0, start + (end - start) * ease);
 				if (timeElapsed < duration) {

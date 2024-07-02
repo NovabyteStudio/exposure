@@ -7,4 +7,4 @@ export const EMP: React.FC = () => {
 			<Image src="/content/slider/emp.png" width={500} height={500} alt="Logo" />
 		</>
 	);
-}
+};
