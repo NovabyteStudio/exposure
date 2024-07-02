@@ -296,6 +296,10 @@
 			@apply mt-1;
 			@apply mr-1;
 		}
+		&.fi-tr-users-medical,
+		&.fi-tr-thumbs-up-trust {
+			@apply max-md:hidden;
+		}
 		&.fi-tr-thumbs-up-trust {
 			@apply w-[28px];
 			@apply h-[28px];
