@@ -8,7 +8,7 @@ export const HowWeWork: React.FC = () => {
 		<Card className="w-full max-w-4xl mt-20 flex flex-col mx-auto border-none bg-transparent">
 			<CardHeader className="flex">
 				<CardTitle className="inline-flex items-center gap-x-1.5 text-2xl font-bold w-[400px] text-[#f2f2f2] max-md:text-center">
-					<Layers3Icon className="mt-0.5" /> ¿Cómo trabajamos?
+					<Layers3Icon className="mt-0.5 max-sm:hidden" /> ¿Cómo trabajamos?
 				</CardTitle>
 			</CardHeader>
 			<CardContent className="flex sm:flex-row mx-auto flex-col flex-wrap gap-6 sm:gap-5 md:gap-[10px] max-md:text-center">

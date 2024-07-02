@@ -14,16 +14,14 @@ export const GridBackground: React.FC = () => {
 					Vamos a llevar tu presencia en redes al siguiente nivel, ahorrándote tiempo y energía para invertirlo en
 					aportar valor
 				</p>
-				<p className="pt-11 flex items-center justify-center w-full max-w-[600px] max-sm:px-10">
+				<p className="pt-11 flex items-center justify-center w-full max-w-[600px] max-sm:px-20">
 					Nos dedicamos a crear y escalar marcas personales desde 0, como lo hemos hecho antes, mediante sistemas de
 					contenido estratégicos y estético. Adecuándose al máximo a tus propósitos y a tus necesidades.
 				</p>
 			</div>
 			<div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-[#161616] [mask-image:radial-gradient(ellipse_at_top,transparent_8%,black)]"></div>
 			<div className="flex p-10">
-				<Link href="/contact">
-					<button className="contact-button">Contáctanos ahora</button>
-				</Link>
+				<button className="contact-button">Contáctanos ahora</button>
 			</div>
 			<div className="bg-transparent rounded-[400px] w-[380px] md:w-[500px] sm:w-[400px] mx-auto overflow-hidden">
 				<div className="w-full max-w-[600px]">

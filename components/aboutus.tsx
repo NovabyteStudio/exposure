@@ -8,7 +8,7 @@ export const AboutUs: React.FC = () => {
 		<Card className="w-full max-w-4xl mt-20 flex flex-col mx-auto border-none bg-transparent">
 			<CardHeader className="flex mb-10">
 				<CardTitle className="inline-flex items-center gap-x-1.5 text-2xl font-bold text-[#f2f2f2] max-md:text-center">
-					<MessageSquareQuoteIcon className="mt-1" /> Lo que clientes dicen de nosotros...
+					<MessageSquareQuoteIcon className="mt-1 max-sm:hidden" /> Lo que clientes dicen de nosotros...
 				</CardTitle>
 			</CardHeader>
 			<CardContent className="flex sm:flex-row mx-auto flex-col flex-wrap gap-6 sm:gap-5 md:gap-[14px]">

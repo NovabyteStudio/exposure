@@ -25,7 +25,7 @@ export const Purchase: React.FC = () => {
 								<ul className="mt-4 space-y-2">
 									<li className="flex items-center">
 										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
-										1 Video YouTube por semana.
+										1 video de YouTube por semana.
 									</li>
 									<li className="flex items-center">
 										<PlusIcon className="text-white text-xs rounded-full mr-2 p-1" />
@@ -49,11 +49,11 @@ export const Purchase: React.FC = () => {
 								<ul className="mt-4 space-y-2">
 									<li className="flex items-center">
 										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
-										1 Video Youtube por semana.
+										1 video de YouTube por semana.
 									</li>
 									<li className="flex items-center">
 										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
-										3 Reels por semana.
+										3 reels por semana.
 									</li>
 									<li className="flex items-center text-">
 										<PlusIcon className="text-white text-xs rounded-full mr-2 p-1" />
@@ -71,10 +71,10 @@ export const Purchase: React.FC = () => {
 								<div className="mt-4 text-center text-zinc-600 dark:text-zinc-400">
 									<span className="text-4xl font-bold">$275</span>/ m
 								</div>
-								<ul className="mt-4 space-y-2">
+								<ul className="mt-4 space-y-2 text-left">
 									<li className="flex items-center">
 										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
-										3 Reels por semana.
+										3 reels por semana.
 									</li>
 									<li className="flex items-center">
 										<PlusIcon className="text-white text-xs rounded-full mr-2 p-1" />
