@@ -37,7 +37,7 @@ export const AboutUs: React.FC = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex flex-col gap-y-6 w-[310px] justify-center mx-auto border border-[#282828] bg-[#1c1c1c] rounded-md drop-shadow-md">
+				<div className="flex flex-col gap-y-6 w-[310px] max-w-[310px] justify-center mx-auto border border-[#282828] bg-[#1c1c1c] rounded-md drop-shadow-md">
 					<div className="px-6 py-4">
 						<div className="text-sm text-[#f2f2f2]">
 							“Estoy con ellos desde que arranqué y más contento imposible, $35k usd por mes con mi marca personal.”

@@ -7,7 +7,7 @@ export const HowWeWork: React.FC = () => {
 	return (
 		<Card className="w-full max-w-4xl mt-20 flex flex-col mx-auto border-none bg-transparent">
 			<CardHeader className="flex">
-				<CardTitle className="inline-flex items-center gap-x-1.5 text-2xl font-bold w-[400px] text-[#f2f2f2] max-md:text-center">
+				<CardTitle className="inline-flex items-center gap-x-1.5 text-2xl font-bold text-[#f2f2f2] max-md:text-center max-md:justify-center">
 					<Layers3Icon className="mt-0.5 max-sm:hidden" /> ¿Cómo trabajamos?
 				</CardTitle>
 			</CardHeader>
