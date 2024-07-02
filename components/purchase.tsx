@@ -1,5 +1,5 @@
 import React from "react";
-import { CheckIcon, CircleFadingPlusIcon, CornerRightDownIcon, PlusIcon } from "lucide-react";
+import { CheckIcon, CircleFadingPlusIcon, ComponentIcon, CornerRightDownIcon } from "lucide-react";
 // Components \\
 import { Button } from "@/components/ui/button";
 import { YouTube } from "@/components/icons/youtube";
@@ -19,7 +19,7 @@ export const Purchase: React.FC = () => {
 								<h3 className="inline-flex items-center w-full justify-center gap-x-1.5 text-2xl font-bold text-center">
 									<YouTube /> YouTube
 								</h3>
-								<div className="mt-4 text-center text-zinc-600">
+								<div className="mt-4 text-center text-[#23c483]">
 									<span className="text-4xl font-bold">$484</span>/ m
 								</div>
 								<ul className="mt-4 space-y-2">
@@ -28,8 +28,8 @@ export const Purchase: React.FC = () => {
 										1 video de YouTube por semana.
 									</li>
 									<li className="flex items-center">
-										<PlusIcon className="text-white text-xs rounded-full mr-2 p-1" />
-										10% comisión EMP.
+										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
+										Revisión de calidad.
 									</li>
 								</ul>
 							</div>
@@ -42,10 +42,13 @@ export const Purchase: React.FC = () => {
 								Recomendado
 							</div>
 							<div>
-								<h3 className="text-2xl font-bold text-center">Combo</h3>
+								<h3 className="inline-flex items-center gap-x-1.5 justify-center w-full text-2xl font-bold text-center"><ComponentIcon /> Combo</h3>
 								<div className="mt-4 text-center text-zinc-600 dark:text-zinc-400">
-									<span className="text-4xl font-bold">$715</span>/ m
+									<span className="text-3xl font-bold line-through">$1000</span>
+									<div className="text-4xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">$715</div>
+									<div className="text-base font-medium bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">Precio Especial Miembro EMP</div>
 								</div>
+
 								<ul className="mt-4 space-y-2">
 									<li className="flex items-center">
 										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
@@ -56,8 +59,12 @@ export const Purchase: React.FC = () => {
 										3 reels por semana.
 									</li>
 									<li className="flex items-center text-">
-										<PlusIcon className="text-white text-xs rounded-full mr-2 p-1" />
-										10% comisión EMP.
+										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
+										Revisión de calidad.
+									</li>
+									<li className="flex items-center text-">
+										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
+										Asesoramiento creativo.
 									</li>
 								</ul>
 							</div>
@@ -68,7 +75,7 @@ export const Purchase: React.FC = () => {
 						<div className="flex flex-col justify-between gap-x-3.5 md:w-[275px] max-md:w-[275px] mx-auto bg-[#1c1c1c] items-center cursor-pointer rounded-lg border border-[#1c1c1c] drop-shadow-md p-6 transition-all flex-1">
 							<div>
 								<h3 className="inline-flex items-center w-full justify-center gap-x-1.5 text-2xl font-bold text-center"><Instagram /> Instagram</h3>
-								<div className="mt-4 text-center text-zinc-600 dark:text-zinc-400">
+								<div className="mt-4 text-center text-[#23c483]">
 									<span className="text-4xl font-bold">$275</span>/ m
 								</div>
 								<ul className="mt-4 space-y-2 text-left">
@@ -77,8 +84,8 @@ export const Purchase: React.FC = () => {
 										3 reels por semana.
 									</li>
 									<li className="flex items-center">
-										<PlusIcon className="text-white text-xs rounded-full mr-2 p-1" />
-										10% de comisión EMP.
+										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
+										Revisión de calidad.
 									</li>
 								</ul>
 							</div>

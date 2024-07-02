@@ -24,10 +24,10 @@ export const AboutUs: React.FC = () => {
 							<div>
 								<img
 									alt="Ramiro Cubria"
-									className="rounded-md"
+									className="mt-2 rounded-full h-[48px] w-[60px]"
 									height="48"
-									src="https://generated.vusercontent.net/placeholder.svg"
-									width="48"
+									src="/content/opinions/ramirocubria.jpg"
+									width="60"
 								/>
 							</div>
 							<div>
@@ -48,10 +48,10 @@ export const AboutUs: React.FC = () => {
 							<div>
 								<img
 									alt="Fran Castro"
-									className="rounded-md"
+									className="mt-2 rounded-full h-[48px] w-[54px]"
 									height="48"
-									src="https://generated.vusercontent.net/placeholder.svg"
-									width="48"
+									src="/content/opinions/francastro.jpg"
+									width="54"
 								/>
 							</div>
 							<div>
@@ -73,9 +73,9 @@ export const AboutUs: React.FC = () => {
 							<div>
 								<img
 									alt="Matias Noguera"
-									className="rounded-md"
+									className="-mt-1 rounded-full h-[48px] w-[48px]"
 									height="48"
-									src="https://generated.vusercontent.net/placeholder.svg"
+									src="/content/opinions/matiasnoguera.jpg"
 									width="48"
 								/>
 							</div>
@@ -97,9 +97,9 @@ export const AboutUs: React.FC = () => {
 							<div>
 								<img
 									alt="Gonzalo Waisman"
-									className="rounded-md"
+									className="-mt-0.5 rounded-full h-[48px] w-[48px]"
 									height="48"
-									src="https://generated.vusercontent.net/placeholder.svg"
+									src="/content/opinions/gonzalowaisman.jpg"
 									width="48"
 								/>
 							</div>
