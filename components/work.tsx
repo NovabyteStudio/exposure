@@ -47,7 +47,7 @@ export const HowWeWork: React.FC = () => {
 							<i className="fi fi-tr-mind-share"></i>
 						</div>
 						<div className="flex flex-col w-full pt-3 items-center text-left">
-							<h3 className="text-white text-left w-full">Estratégias y Guionaje</h3>
+							<h3 className="text-white text-left w-full">Estrategias y Guionaje</h3>
 							<p className="text-[#f2f2f2]/40 text-left w-full">
 								Creación de contenido de manera analizada y planificada con el fin de aumentar tus ingresos.
 							</p>
