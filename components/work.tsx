@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 // Components \\
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
@@ -61,6 +62,11 @@ export const HowWeWork: React.FC = () => {
 							<h3 className="text-white text-left w-full">Embudos</h3>
 							<p className="text-[#f2f2f2]/40 text-left w-full">Próximamente...</p>
 						</div>
+					</div>
+					<div className="flex justify-center pt-5 -mb-5">
+						<Link className="examples-button" href={"https://www.playbook.com/bernabeveron/np8hNbBwRu94pF4BzUAhgtZ2"} target="_blank">
+							<button >¡Mira ejemplos aquí!</button>
+						</Link>
 					</div>
 				</div>
 			</CardContent>

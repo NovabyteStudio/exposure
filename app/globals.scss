@@ -245,7 +245,8 @@
 		scroll-behavior: smooth !important;
 		font-family: "Sequel Sans", sans-serif !important;
 	}
-	.contact-button {
+	.contact-button,
+	.examples-button {
 		@apply px-8;
 		@apply py-4;
 		font-size: 12px;
