@@ -23,9 +23,9 @@ export const HowWeWork: React.FC = () => {
 							<i className="fi fi-tr-play-microphone"></i>
 						</div>
 						<div className="flex flex-col w-full pt-3 items-center text-left">
-							<h3 className="text-white text-left w-full">Edicion</h3>
+							<h3 className="text-white text-left w-full">Edición</h3>
 							<p className="text-[#f2f2f2]/40 text-left w-full">
-								Crea piezas de contenido que se ajusten con tus valores, propositos y personalidad, para crear una
+								Crea piezas de contenido que se ajusten con tus valores, propósitos y personalidad, para crear una
 								verdadera marca personal.
 							</p>
 						</div>

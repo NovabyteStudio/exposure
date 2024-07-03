@@ -64,7 +64,7 @@ export const AboutUs: React.FC = () => {
 					<div className="px-6 py-4">
 						<div className="text-sm text-[#f2f2f2]">
 							“Quiero agradecer enormemente a exposure, me dieron una increíble mano con todo mi contenido, mis
-							estrategias y mi identidad en redes.”
+							estratégias y mi identidad en redes.”
 						</div>
 					</div>
 					<div className="flex justify-between items-center px-6 py-4">
