@@ -64,7 +64,7 @@ export const HowWeWork: React.FC = () => {
 						</div>
 					</div>
 					<div className="flex justify-center pt-5 -mb-5">
-						<Link className="examples-button" href={"https://www.playbook.com/bernabeveron/np8hNbBwRu94pF4BzUAhgtZ2"} target="_blank">
+						<Link className="examples-button" href={"https://www.playbook.com/s/bernabeveron/vecR1vrbzfaJHgtsNrZ4tEUR"} target="_blank">
 							<button >¡Mira ejemplos aquí!</button>
 						</Link>
 					</div>
