@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import TechIconsData, { IconData } from "@/lib/icons";
-import { Tooltip, TooltipProvider, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+import { Tooltip } from "@nextui-org/tooltip";
 
 export const GridBackground: React.FC = () => {
 	const scrollToElement = (id: string, duration: number) => {
@@ -50,7 +50,7 @@ export const GridBackground: React.FC = () => {
 			</div>
 			<div className="bg-transparent rounded-[400px] w-[380px] md:w-[500px] sm:w-[400px] mx-auto overflow-hidden">
 				<div className="w-full max-w-[600px]">
-					<h2 className="text-[17px] mb-2.5 font-bold">¡Confían en nosotros!</h2>
+					<h2 className="text-[18px] mb-2.5 font-bold">¡Confían en nosotros!</h2>
 					<Swiper
 						id="devs-swiper"
 						modules={[Autoplay]}
@@ -66,17 +66,12 @@ export const GridBackground: React.FC = () => {
 						}}
 					>
 						{TechIconsData.map((icon: IconData, index: number) => (
-							<SwiperSlide key={index} title={icon.name} className="cursor-default bg-transparent">
-								<TooltipProvider delayDuration={500}>
-									<Tooltip>
-										<TooltipTrigger asChild>
-											<icon.component />
-										</TooltipTrigger>
-										<TooltipContent side="bottom" align="center">
-											<p>{icon.name}</p>
-										</TooltipContent>
-									</Tooltip>
-								</TooltipProvider>
+							<SwiperSlide key={index} className="cursor-default bg-transparent">
+								<Tooltip content={icon.name} placement="bottom" closeDelay={100} className="text-white font-bold bg-[#1c1c1c]/100 px-4 py-2 rounded-full">
+									<div>
+										<icon.component />
+									</div>
+								</Tooltip>
 							</SwiperSlide>
 						))}
 					</Swiper>
