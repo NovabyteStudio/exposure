@@ -32,6 +32,10 @@ export const Purchase: React.FC = () => {
 										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
 										Revisión de calidad.
 									</li>
+									<li className="flex items-center text-">
+										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
+										Seguimiento 1-1.
+									</li>
 								</ul>
 							</div>
 							<div className="mt-6">
@@ -74,6 +78,14 @@ export const Purchase: React.FC = () => {
 										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
 										Asesoramiento creativo.
 									</li>
+									<li className="flex items-center text-">
+										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
+										Seguimiento 1-1.
+									</li>
+									<li className="flex items-center text-">
+										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
+										Llamada de asesoramiento 1-1.
+									</li>
 								</ul>
 							</div>
 							<div className="mt-6">
@@ -99,6 +111,10 @@ export const Purchase: React.FC = () => {
 									<li className="flex items-center">
 										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
 										Revisión de calidad.
+									</li>
+									<li className="flex items-center text-">
+										<CheckIcon className="text-white text-xs rounded-full mr-2 p-1" />
+										Seguimiento 1-1.
 									</li>
 								</ul>
 							</div>
