@@ -14,7 +14,7 @@ export const HowWeWork: React.FC = () => {
 			<CardContent className="flex sm:flex-row mx-auto flex-col flex-wrap gap-6 sm:gap-5 md:gap-[10px] max-md:text-center">
 				<div className="mb-10">
 					<p className="text-[#f2f2f2]/50">
-						En exposure mediante la implementación de un editor de videos y un csm, vamos a potenciar tu presencia en
+						En exposure mediante la implementación de un editor de videos y un CSM (Customer Success Manager), vamos a potenciar tu presencia en
 						redes con el fin de generar una audiencia 100% orgánica y con sentido de comunidad.
 					</p>
 				</div>
@@ -38,7 +38,7 @@ export const HowWeWork: React.FC = () => {
 						<div className="flex flex-col w-full pt-3 items-center text-left">
 							<h3 className="text-white text-left w-full">Sistema</h3>
 							<p className="text-[#f2f2f2]/40 text-left w-full">
-								Un csm que garantiza que todas las piezas se entreguen a tiempo y forma para no perder tiempo en
+								Un CSM (Customer Success Manager) que garantiza que todas las piezas se entreguen a tiempo y forma para no perder tiempo en
 								revisiones y comunicar ambas partes de manera eficaz.
 							</p>
 						</div>

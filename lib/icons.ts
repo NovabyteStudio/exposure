@@ -12,10 +12,10 @@ import { DFria } from "@/components/icons/dfria";
 const TechIconsData: IconData[] = [
 	{ name: "@Hashi", component: Hashi },
 	{ name: "@Decrypto", component: Decrypto },
-	{ name: "@Club de negocios", component: CDN },
+	{ name: "@Club de Negocios", component: CDN },
 	{ name: "@Alekai", component: Alekai },
 	{ name: "@EMP", component: EMP },
-	{ name: "@La ducha fria", component: DFria },
+	{ name: "@La Ducha Fría", component: DFria },
 ];
 
 export default TechIconsData;

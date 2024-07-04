@@ -110,6 +110,14 @@ export const AboutUs: React.FC = () => {
 					</div>
 				</div>
 			</CardContent>
+			<div className="flex flex-col mx-auto text-center space-y-10 justify-center text-[#f2f2f2]">
+				<h1 className="inline-flex justify-center mt-10 gap-x-1.5 max-md:gap-x-0 max-md:px-10 text-2xl font-bold text-[#f2f2f2] max-md:text-center">
+					<i className="fi fi-tr-sparkles rotate-360 mr-1"></i>
+					¡Priorizamos la calidad!
+					<i className="fi fi-tr-sparkles -rotate-180 ml-1"></i>
+				</h1>
+				<h4>...</h4>
+			</div>
 		</Card>
 	);
 };

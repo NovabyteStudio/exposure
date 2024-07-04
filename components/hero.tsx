@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import TechIconsData, { IconData } from "@/lib/icons";
+import { Tooltip, TooltipProvider, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 
 export const GridBackground: React.FC = () => {
 	const scrollToElement = (id: string, duration: number) => {
@@ -34,13 +35,11 @@ export const GridBackground: React.FC = () => {
 	return (
 		<section className="w-full gap-6 flex-col mx-auto bg-[#161616] bg-grid-gray-700/[1.1] relative flex items-center text-center justify-center">
 			<div className="flex flex-col pt-32 max-sm:pt-14 w-[420px] md:w-[700px] sm:w-[500px] items-center justify-center cursor-default">
-				<p className="text-3xl md:text-5xl sm:2xl max-sm:px-20 font-semibold text-white">
-					Vamos a llevar tu presencia en redes al siguiente nivel, ahorrándote tiempo y energía para invertirlo en
-					aportar valor
+				<p className="text-4xl md:text-5xl sm:3xl max-sm:px-20 font-semibold text-white">
+					Tu contenido al siguiente nivel
 				</p>
 				<p className="pt-11 flex items-center justify-center w-full max-w-[600px] max-sm:px-20">
-					Nos dedicamos a crear y escalar marcas personales desde 0, como lo hemos hecho antes, mediante sistemas de
-					contenido estratégicos y estético. Adecuándose al máximo a tus propósitos y a tus necesidades.
+					Ayudamos a creadores de contenido a expandir su mensaje en redes sociales. Por medio de la edición de alto impacto y creación de identidad de marca en redes sociales. Nuestro principio es buscar la excelencia en cada pieza de contenido creada.
 				</p>
 			</div>
 			<div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-[#161616] [mask-image:radial-gradient(ellipse_at_top,transparent_8%,black)]"></div>
@@ -51,6 +50,7 @@ export const GridBackground: React.FC = () => {
 			</div>
 			<div className="bg-transparent rounded-[400px] w-[380px] md:w-[500px] sm:w-[400px] mx-auto overflow-hidden">
 				<div className="w-full max-w-[600px]">
+					<h2 className="text-[17px] mb-2.5 font-bold">¡Confían en nosotros!</h2>
 					<Swiper
 						id="devs-swiper"
 						modules={[Autoplay]}
@@ -66,8 +66,17 @@ export const GridBackground: React.FC = () => {
 						}}
 					>
 						{TechIconsData.map((icon: IconData, index: number) => (
-							<SwiperSlide key={index} className="cursor-pointer bg-transparent">
-								<icon.component />
+							<SwiperSlide key={index} title={icon.name} className="cursor-default bg-transparent">
+								<TooltipProvider delayDuration={500}>
+									<Tooltip>
+										<TooltipTrigger asChild>
+											<icon.component />
+										</TooltipTrigger>
+										<TooltipContent side="bottom" align="center">
+											<p>{icon.name}</p>
+										</TooltipContent>
+									</Tooltip>
+								</TooltipProvider>
 							</SwiperSlide>
 						))}
 					</Swiper>
