@@ -116,7 +116,7 @@ export const AboutUs: React.FC = () => {
 					¡Priorizamos la calidad!
 					<i className="fi fi-tr-sparkles -rotate-180 ml-1"></i>
 				</h1>
-				<h4>...</h4>
+				<h4 className="font-medium max-md:px-10">Priorizamos que nuestros clientes obtengan el resultado esperado, con la mayor calidad posible.</h4>
 			</div>
 		</Card>
 	);
