@@ -18,7 +18,14 @@ export const AboutUs: React.FC = () => {
 							resultados obtenidos."
 						</div>
 					</div>
-					<div className="flex justify-between items-center px-6 py-4">
+					<div className="flex flex-col justify-between items-center px-6 py-4">
+						<div className="-mt-10 mb-5">
+							<img
+								alt="Ramiro Stats"
+								className="rounded-sm"
+								src="/content/opinions/stats/ramiro-stats.png"
+							/>
+						</div>
 						<div className="flex space-x-4">
 							<div>
 								<img
@@ -42,7 +49,14 @@ export const AboutUs: React.FC = () => {
 							“Estoy con ellos desde que arranqué y más contento imposible, $35k usd por mes con mi marca personal.”
 						</div>
 					</div>
-					<div className="flex justify-between items-center px-6 py-4">
+					<div className="flex flex-col justify-between items-center px-6 py-4">
+						<div className="-mt-10 mb-5">
+							<img
+								alt="Fran Stats"
+								className="rounded-sm"
+								src="/content/opinions/stats/fran-stats.png"
+							/>
+						</div>
 						<div className="flex space-x-4">
 							<div>
 								<img
