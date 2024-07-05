@@ -15,7 +15,7 @@ export const Purchase: React.FC = () => {
 					<h1 className="inline-flex items-center gap-x-1.5 text-2xl font-bold text-[#f2f2f2] max-md:w-screen max-md:justify-center">
 						<i className="fi fi-tr-usd-square"></i> Adquirir servicio <i className="fi fi-tr-level-down-alt"></i>
 					</h1>
-					<div className="grid grid-cols-3 gap-6 mt-8 max-[900px]:grid-cols-1 md:gap-8">
+					<div className="grid grid-cols-3 gap-6 mt-8 max-[900px]:grid-cols-1 md:gap-20">
 						<div className="flex flex-col justify-between gap-x-3.5 md:w-[275px] max-md:w-[275px] mx-auto bg-[#1c1c1c] items-center cursor-pointer rounded-lg border border-[#1c1c1c] drop-shadow-md p-6 transition-all flex-1">
 							<div>
 								<h3 className="inline-flex items-center w-full justify-center gap-x-1.5 text-2xl font-bold text-center">
